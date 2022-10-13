@@ -126,7 +126,7 @@ img {
 /* main section1 */
 .main-section {
   padding-top: 200px;
-  background-image: url(/images/Img\ -bg.jpg),url(/images/Img\ Overlay-bg.png);
+  background-image: url(/images/img-bg.jpg),url(/images/img-verlay-bg.png);
   padding-bottom: 200px;
 }
 
