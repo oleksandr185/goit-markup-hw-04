@@ -312,12 +312,13 @@ img {
 
 /*footer*/
 .container-fot {
-  gap: 156px;
+  gap: 70px;
   display: flex;
   margin: 0 auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: baseline;
 }
 
 .footer {
@@ -373,8 +374,8 @@ img {
 .footer-address:hover {
   color: var(--color-blue);
 }
-.address-footer {
-  gap: 9px;
+.footer-list{
+  margin-bottom: 9px;
 }
 
 /* portfolio filter*/
@@ -447,6 +448,20 @@ img {
 }
 .portfolio-group {
   background-color: var(--color-white);
+}
+.portfolio-group:hover{
+  
+background: #FFFFFF;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
+rgba(0, 0, 0, 0.06), 1px 4px 6px
+ rgba(0, 0, 0, 0.16);
+}
+.portfolio-group:focus{
+  
+background: #FFFFFF;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
+rgba(0, 0, 0, 0.06), 1px 4px 6px
+ rgba(0, 0, 0, 0.16);
 }
 .feature-box {
   display: flex;
@@ -534,10 +549,7 @@ img {
   height: 20px;
 }
 
-.soc-footer {
-  padding-top: 20px;
-  width: 206px;
-}
+
 .soc-title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -588,6 +600,12 @@ img {
   border: 1px solid var(--second-grey);
   border-radius: 4px;
 }
+.custom-item :hover{
+ 
+  border: 1px solid var(--color-blue-secondary);
+  border-radius: 4px;
+  
+}
 
 .custom-link {
   justify-content: center;
@@ -599,16 +617,15 @@ img {
   fill: var(--second-grey);
 }
 .custom-link :hover {
-  width: 170px;
-  height: 92px;
+ 
   fill: var(--color-blue);
-  color: #2196f3;
+   border: solid 1px var(--color-blue-secondary);
+   border-radius: 4px;
 }
 .custom-link :focus {
-  width: 170px;
-  height: 92px;
+  
   fill: var(--color-blue);
-  color: #2196f3;
+ 
 }
 .custom-icon {
   width: 70px;
