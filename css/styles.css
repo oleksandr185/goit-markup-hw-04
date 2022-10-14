@@ -374,7 +374,7 @@ img {
 .footer-address:hover {
   color: var(--color-blue);
 }
-.footer-list{
+.footer-list {
   margin-bottom: 9px;
 }
 
@@ -449,19 +449,15 @@ img {
 .portfolio-group {
   background-color: var(--color-white);
 }
-.portfolio-group:hover{
-  
-background: #FFFFFF;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
-rgba(0, 0, 0, 0.06), 1px 4px 6px
- rgba(0, 0, 0, 0.16);
+.portfolio-group:hover {
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-group:focus{
-  
-background: #FFFFFF;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
-rgba(0, 0, 0, 0.06), 1px 4px 6px
- rgba(0, 0, 0, 0.16);
+.portfolio-group:focus {
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .feature-box {
   display: flex;
@@ -549,7 +545,6 @@ rgba(0, 0, 0, 0.06), 1px 4px 6px
   height: 20px;
 }
 
-
 .soc-title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -592,6 +587,7 @@ rgba(0, 0, 0, 0.06), 1px 4px 6px
   gap: 30px;
 }
 .custom-item {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -600,34 +596,36 @@ rgba(0, 0, 0, 0.06), 1px 4px 6px
   border: 1px solid var(--second-grey);
   border-radius: 4px;
 }
-.custom-item :hover{
- 
-  border: 1px solid var(--color-blue-secondary);
-  border-radius: 4px;
-  
-}
 
 .custom-link {
+  border: 1px solid var(--second-grey);
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 170px;
+  height: 92px;
   display: flex;
   justify-content: center;
   fill: var(--second-grey);
 }
 .custom-link :hover {
- 
+  border: 1px solid var(--color-blue);
+  border-radius: 4px;
   fill: var(--color-blue);
-   border: solid 1px var(--color-blue-secondary);
-   border-radius: 4px;
 }
 .custom-link :focus {
-  
+  border: 1px solid var(--color-);
+  border-radius: 4px;
   fill: var(--color-blue);
- 
 }
 .custom-icon {
-  width: 70px;
-  height: 70px;
+  padding: 12px 6px;
+  width: 170px;
+  height: 92px;
+
+
+
+
+  
 }
+
