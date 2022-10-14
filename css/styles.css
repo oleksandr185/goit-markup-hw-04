@@ -111,17 +111,26 @@ img {
 }
 
 .header-connect {
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
   padding: 32px 0;
-  display: block;
+  display:flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-grey);
 }
-.header-connect:hover {
+ .header-connect:hover {
   color: var(--color-blue);
+  fill: var(--color-blue);
 }
+.header-connect:focus {
+  color: var(--color-blue);
+  fill: var(--color-blue);
+}
+
 
 /* main section1 */
 .main-section {
@@ -448,20 +457,30 @@ img {
   margin-bottom: 30px;
   background-color: var(--color-bg-grey);
 }
-.contact-box {
+.contact-box { cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+.contact-box :hover{
+  color: var(--color-blue);
+  fill: var(--color-blue);
+}
+.contact-box :focus{
+  color: var(--color-blue);
+  fill: var(--color-blue);
+}
 
 .contact-icon {
-  cursor: pointer;
   fill: var(--color-grey);
   width: 16px;
   height: 16px;
 }
-.contact-icon:hover {
+ .contact-icon:hover {
+  fill: var(--color-blue);
+}
+ .contact-icon:focus {
   fill: var(--color-blue);
 }
 .icon-contacts {
@@ -540,10 +559,6 @@ img {
 }
 .net-icon-footer {
   fill: var(--color-white);
-}
-
-.wwww {
-  /*rgba(255, 255, 255, 0.1)*/
 }
 /* section custom */
 .customs {
