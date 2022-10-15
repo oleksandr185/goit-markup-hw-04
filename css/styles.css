@@ -28,6 +28,7 @@ p {
   margin: 0px;
 }
 
+
 /* header */
 
 a {
@@ -37,6 +38,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+:focus{
+  border: transparent;
 }
 
 /* logo */
@@ -109,7 +113,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-blue);
 }
-
+.nav-link:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-blue);
+}
 .header-connect {
   height: 16px;
   gap: 10px;
@@ -340,6 +350,9 @@ img {
 .footer-mail:hover {
   color: var(--color-blue);
 }
+.footer-mail:focus {
+  color: var(--color-blue);
+}
 .footer-tel {
   font-style: normal;
   font-weight: 400;
@@ -349,6 +362,9 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover {
+  color: var(--color-blue);
+}
+.footer-tel:focus {
   color: var(--color-blue);
 }
 
@@ -372,6 +388,9 @@ img {
   color: var(--color-white);
 }
 .footer-address:hover {
+  color: var(--color-blue);
+}
+.footer-address:focus {
   color: var(--color-blue);
 }
 .footer-list {
@@ -450,12 +469,12 @@ img {
   background-color: var(--color-white);
 }
 .portfolio-group:hover {
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-group:focus {
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -529,18 +548,18 @@ img {
 }
 
 .soc-link:hover {
-  border: none;
+   border-color: transparent;
   fill: var(--color-white-secondary);
   background-color: var(--color-blue-secondary);
 }
 .soc-link:focus {
-  border: none;
+   border-color: transparent;
   fill: var(--color-white-secondary);
   background-color: var(--color-blue-secondary);
 }
 
 .net-icon {
-  border: none;
+   border-color: transparent;
   width: 20px;
   height: 20px;
 }
@@ -608,24 +627,19 @@ img {
   justify-content: center;
   fill: var(--second-grey);
 }
-.custom-link :hover {
+.custom-link:hover {
   border: 1px solid var(--color-blue);
   border-radius: 4px;
   fill: var(--color-blue);
 }
-.custom-link :focus {
-  border: 1px solid var(--color-);
+.custom-link:focus {
+  border: 1px solid var(--color-blue);
   border-radius: 4px;
   fill: var(--color-blue);
 }
 .custom-icon {
   padding: 12px 6px;
   width: 170px;
-  height: 92px;
-
-
-
-
-
+  height: 92px
 }
 
