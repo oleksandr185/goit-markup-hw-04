@@ -28,7 +28,6 @@ p {
   margin: 0px;
 }
 
-
 /* header */
 
 a {
@@ -39,7 +38,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-:focus{
+:focus {
   border: transparent;
 }
 
@@ -548,18 +547,18 @@ img {
 }
 
 .soc-link:hover {
-   border-color: transparent;
+  border-color: transparent;
   fill: var(--color-white-secondary);
   background-color: var(--color-blue-secondary);
 }
 .soc-link:focus {
-   border-color: transparent;
+  border-color: transparent;
   fill: var(--color-white-secondary);
   background-color: var(--color-blue-secondary);
 }
 
 .net-icon {
-   border-color: transparent;
+  border-color: transparent;
   width: 20px;
   height: 20px;
 }
@@ -640,6 +639,5 @@ img {
 .custom-icon {
   padding: 12px 6px;
   width: 170px;
-  height: 92px
+  height: 92px;
 }
-
