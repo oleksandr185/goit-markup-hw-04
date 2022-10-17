@@ -616,6 +616,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+.soc-item-foot>.soc-link{
+  fill: var(--color-white);
+}
 
 .soc-link {
   display: flex;
